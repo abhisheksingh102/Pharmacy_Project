@@ -50,11 +50,54 @@
     </div>
 </nav>
 
-
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <link href="style.css" rel="stylesheet" type="text/css">
 
 <body>
+<table width="960" border="0" cellspacing="10" cellpadding="0" align="center">
+    <tr align="justify">
+        <td valign="top" width="220px">
+
+
+        </td> <td valign="top">
+        <form name=F1 onSubmit="return dil(this)" action="login.jsp" >
+            <table cellspacing="10" cellpadding="8">
+
+
+                <body>
+                <section class="overlay">
+                    <h1>Pharmacy shop</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="username">User name:</label>
+                    <br><br>
+                    <input id="username" name="UserName" type="text" required minlength="3" maxlength="15" placeholder="UserName">
+                    <br><br>
+                    <label for="pw">Password:</label>
+                    <br><br>
+                    <!--Add the pattern attribute to the input below-->
+                    <input id="pw" name="Password" type="password" required minlength="8" maxlength="15" placeholder="Password">
+                    <br><br>
+                    <input type="submit" value="Submit">
+                    <INPUT TYPE=RESET VALUE="CLEAR"></td></tr>
+                    <br>
+                    <a href="Register.jsp">New User</a>
+        </form>
+        </section>
+</body>
+
+<tr><td></td></tr>
+</table>
+</form>
+
+</tr>
+<tr><td colspan="4" style="border-bottom:1px solid #CCCCCC;"></td></tr>
+</table>
+</body>
+</html>
+</body>
+</html>
+
+
