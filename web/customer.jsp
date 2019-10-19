@@ -32,7 +32,7 @@
                 <a class="nav-link" href="index.jsp">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="About.jsp">About US</a>
+                <a class="nav-link" href="aboutus.jsp">About US</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="administrator.jsp">Administrator</a>
@@ -83,7 +83,7 @@
                     <input type="submit" value="Submit">
                     <INPUT TYPE=RESET VALUE="CLEAR"></td></tr>
                     <br>
-                    <a href="new user.jsp">New User</a>
+                    <a href="Register.jsp">New User</a>
         </form>
         </section>
 </body>
