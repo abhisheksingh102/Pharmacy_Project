@@ -31,7 +31,7 @@
                    <a class="nav-link" href="index.jsp">Home</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link" href="about.jsp">ABOUT US</a>
+                   <a class="nav-link" href="About.jsp">ABOUT US</a>
                </li>
                <li class="nav-item">
                    <a class="nav-link" href="#">Administrator</a>
