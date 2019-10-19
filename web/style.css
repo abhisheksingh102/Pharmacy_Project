@@ -1,10 +1,9 @@
-{
+*{
     margin: 0;
     padding: 0;
 }
 body{
     background: url("image/wall.jpg");
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,16 +15,170 @@ body{
     overflow: break;
 }
 .overlay {
-    width: 80%;
-    min-width: 30%;
-    margin: 3% auto;
+    width: 400px;
+    max-height: 500px;
+
+    margin: 100px;
     display: block;
-    padding: 2%;
-    height: 90vh;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 40px;
+    padding: 56px;
+    height: 700px;
+
+    right: 100em;
+}
+.ayush{
+    position: absolute;
+    right: 50em;
+    margin: 0px;
+    max-width: 500px;
+    padding: 106px;
+    background-color: lightblue;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.no {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 15px;
+    cursor: pointer;
+
+    width: 100%;
+    opacity: 0.9;
+}
+
+.no:hover {
+    opacity: 1;
+}
+
+
+
+
+#wrap{
+
+    padding: 36px;
+    right: 50em;
+    margin: 80px;
+    max-width: 70%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+legend{
+    color: #141823;
+    font-size:25px;
+    font-weight:bold;
     text-align: center;
 }
-#content{
+.signup-btn {
+    background: #79bc64;
+    background-image: -webkit-linear-gradient(top, #79bc64, #578843);
+    background-image: -moz-linear-gradient(top, #79bc64, #578843);
+    background-image: -ms-linear-gradient(top, #79bc64, #578843);
+    background-image: -o-linear-gradient(top, #79bc64, #578843);
+    background-image: linear-gradient(to bottom, #79bc64, #578843);
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    text-shadow: 0px 1px 0px #898a88;
+    -webkit-box-shadow: 0px 0px 0px #a4e388;
+    -moz-box-shadow: 0px 0px 0px #a4e388;
+    box-shadow: 0px 0px 0px #a4e388;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #3b6e22  1px;
+    text-decoration: none;
     text-align: center;
+}
+
+.signup-btn:hover {
+    background: #79bc64;
+    background-image: -webkit-linear-gradient(top, #79bc64, #5e7056);
+    background-image: -moz-linear-gradient(top, #79bc64, #5e7056);
+    background-image: -ms-linear-gradient(top, #79bc64, #5e7056);
+    background-image: -o-linear-gradient(top, #79bc64, #5e7056);
+    background-image: linear-gradient(to bottom, #79bc64, #5e7056);
+    text-decoration: none;
+    text-align: center;
+}
+.navbar-default .navbar-brand{
+    color: green;
+    font-size:30px;
+    font-weight:bold;
+
+}
+.form .form-control { margin-bottom: 10px; }
+@media (min-width:768px) {
+    #home{
+        margin-top:5px;
+    }
+    #home .slogan{
+        color: #0e385f;
+        line-height: 29px;
+        font-weight:bold;
+    }
+}
+body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
 }
