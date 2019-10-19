@@ -11,7 +11,7 @@
 <head>
     <meta http-eqiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title> About Us - Our-Pharmacy,New Delhi </title>
-    <A href="index.php"><IMG SRC="image/phar.jpg"></IMG></A>
+    <A href="index.jsp"><IMG SRC="image/phar.jpg"></IMG></A>
 </head>
 
 <body>

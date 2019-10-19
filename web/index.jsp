@@ -43,6 +43,10 @@
       <li class="nav-item">
         <a class="nav-link" href="customer.jsp">Customer</a>
       </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact us.jsp">Contact us</a>
+      </li>
 
 
     </ul>
