@@ -37,7 +37,7 @@
                    <a class="nav-link" href="#">Administrator</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link" href="contactus.jsp">contact us</a>
+                   <a class="nav-link" href="contact us.jsp">contact us</a>
                </li>
                <li class="nav-item">
                    <a class="nav-link" href="customer.jsp">customer</a>
