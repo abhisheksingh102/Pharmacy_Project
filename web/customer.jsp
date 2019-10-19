@@ -58,11 +58,11 @@
         <form action="login.jsp" class="ayush">
             <h1>Login</h1>
 
-            <label for="email"><b>Email</b></label>
+            <label id="email"><b>Email</b></label>
             <br>
             <input type="text" placeholder="Enter Email" name="email" required>
             <br>
-            <label for="psw"><b>Password</b></label>
+            <label id="psw"><b>Password</b></label>
             <br>
             <input type="password" placeholder="Enter Password" name="psw" required>
             <br>
