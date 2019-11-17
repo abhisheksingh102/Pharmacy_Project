@@ -1,11 +1,10 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: Kanha Mittal
-  Date: 19-10-2019
-  Time: 21:31
-  To change this template use File | Settings | File Templates.
+    Document   : contact us
+    Created on : 30 Sep, 2019, 10:16:56 PM
+    Author     : Kanha Mittal
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,31 +17,40 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">maa durga</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="index.jsp">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="About.jsp">About us</a>
+                <a class="nav-link" href="about.jsp">About US</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Administrator</a>
+                <a class="nav-link" href="administrator.jsp">Administrator</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact us.jsp"> contact us</a>
+                <a class="nav-link" href="contact us.jsp">contact us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="customer.jsp">customer</a>
+                <a class="nav-link" href="customer.jsp">Customer</a>
             </li>
         </ul>
+
     </div>
 </nav>
+<style>
+    body  {
+
+        background-color: #30BECE;
+    }
+</style>
 <div class="container contact-form">
     <div class="contact-image">
         <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
@@ -52,16 +60,16 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <input type="text" name="txtname" class="form-control" placeholder="Your Name *" value=""/>
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="text" name="txtemail" class="form-control" placeholder="Your Email *" value=""/>
+                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="text" name="txtphone" class="form-control" placeholder="Your Phone No. *" value=""/>
+                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="btnSubmit" class="btncontact" value="Send message"/>
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
                 </div>
             </div>
             <div class="col-md-6">
@@ -76,4 +84,3 @@
 
 </body>
 </html>
-

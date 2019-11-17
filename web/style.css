@@ -2,13 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background: url("image/wall.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
-}
 .overlay h1{
 
     font-size: 3em;
@@ -27,10 +21,10 @@ body{
 }
 .ayush{
     position: absolute;
-    right: 50em;
+    right: 60em;
     margin: 0px;
     max-width: 500px;
-    padding: 106px;
+    padding: 80px;
     background-color: lightblue;
 }
 input[type=text], input[type=password] {

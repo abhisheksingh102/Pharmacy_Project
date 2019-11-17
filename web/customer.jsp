@@ -1,10 +1,11 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: Abhishek
-  Date: 16-10-2019
-  Time: 23:14
-  To change this template use File | Settings | File Templates.
+    Document   : customer
+    Created on : 24 Sep, 2019, 10:34:39 PM
+    Author     : Kanha Mittal
 --%>
+
+
+
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -17,11 +18,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
 
-</head>
-<body>
 
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">maa durga</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,13 +32,13 @@
                 <a class="nav-link" href="index.jsp">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="aboutus.jsp">About US</a>
+                <a class="nav-link" href="about.jsp">About US</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="administrator.jsp">Administrator</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="distributor.jsp">Distributor</a>
+                <a class="nav-link" href="contact us.jsp">contact us</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="customer.jsp">Customer</a>
@@ -50,54 +50,37 @@
     </div>
 </nav>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<link href="style.css" rel="stylesheet" type="text/css">
 
 <body>
-<table width="960" border="0" cellspacing="10" cellpadding="0" align="center">
-    <tr align="justify">
-        <td valign="top" width="220px">
+<style>
+    body  {
 
+        background: url("image/wall.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+<section class="overlay">
+    <div class="bg-img">
+        <form action="login.jsp" class="ayush">
+            <h1>Login</h1>
 
-        </td> <td valign="top">
-        <form name=F1 onSubmit="return dil(this)" action="login.jsp" >
-            <table cellspacing="10" cellpadding="8">
-
-
-                <body>
-                <section class="overlay">
-                    <h1>Pharmacy shop</h1>
-                    <br>
-                    <br>
-                    <br>
-                    <label for="username">User name:</label>
-                    <br><br>
-                    <input id="username" name="UserName" type="text" required minlength="3" maxlength="15" placeholder="UserName">
-                    <br><br>
-                    <label for="pw">Password:</label>
-                    <br><br>
-                    <!--Add the pattern attribute to the input below-->
-                    <input id="pw" name="Password" type="password" required minlength="8" maxlength="15" placeholder="Password">
-                    <br><br>
-                    <input type="submit" value="Submit">
-                    <INPUT TYPE=RESET VALUE="CLEAR"></td></tr>
-                    <br>
-                    <a href="Register.jsp">New User</a>
+            <label id="email"><b>Email</b></label>
+            <br>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <br>
+            <label id="psw"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <br>
+            <button type="submit" class="no">Login</button>
+            <a href="new user.jsp">New User</a>
         </form>
-        </section>
+    </div>
+</section>
+
 </body>
-
-<tr><td></td></tr>
-</table>
-</form>
-
-</tr>
-<tr><td colspan="4" style="border-bottom:1px solid #CCCCCC;"></td></tr>
-</table>
 </body>
 </html>
-</body>
-</html>
-
-
