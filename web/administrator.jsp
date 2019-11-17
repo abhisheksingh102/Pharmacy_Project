@@ -94,7 +94,7 @@
                     .overlay h1{
 
                         font-size: 3em;
-                        overflow: break;
+
                     }
                     .no {
                         background-color: #4CAF50;
@@ -114,7 +114,7 @@
                         <h1>Pharmacy shop</h1>
                         <br>
 
-                        <label for="adminname">Admin :</label>
+                        <label id="adminname">Admin :</label>
                         <br>
                         <input id="username" name="UserName" type="text" required minlength="3" maxlength="15" placeholder="AdminName">
                         <br>
@@ -134,7 +134,9 @@
                 </body>
             </table>
         </form>
-
+    </td>
+    </tr>
+</table>
 </body>
 </html>
 
