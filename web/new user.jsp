@@ -70,7 +70,7 @@
                 <input type="password" name="password" value="" class="form-control input-lg" placeholder="Password"  />
 
                 <label>Gender : </label>                    <label class="radio-inline">
-                    <input type="radio" name="gender" value="M" id=male />         Male
+                    <input type="radio" name="gender" value="M" id=male />  Male
                 </label>
                 <label class="radio-inline">
                     <input type="radio" name="gender" value="F" id=female />        Female
