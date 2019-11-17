@@ -80,7 +80,7 @@ legend{
     background-image: -ms-linear-gradient(top, #79bc64, #578843);
     background-image: -o-linear-gradient(top, #79bc64, #578843);
     background-image: linear-gradient(to bottom, #79bc64, #578843);
-    -webkit-border-radius: 4;
+    -webkit-border-radius: 5;
     -moz-border-radius: 4;
     border-radius: 4px;
     text-shadow: 0px 1px 0px #898a88;
