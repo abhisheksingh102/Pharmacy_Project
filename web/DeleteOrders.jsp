@@ -22,3 +22,74 @@
 
 </head>
 
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">maa durga</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.jsp">About US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="administrator.jsp">Administrator</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="customer.jsp">Customer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact us.jsp">contact us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<form name=F1 onSubmit="return dil(this)" action="DeleteOrders1.jsp" >
+    <table cellspacing="5" cellpadding="3">
+
+        <%if(request.getAttribute("wrong")!=null)
+        {
+            out.print("<div>");
+            out.print("<font color='blue'><font size='4'>"+request.getAttribute("wrong")+"");
+
+            out.print("</div>");
+        }
+
+        %>
+
+
+        <tr><td>Product ID:</td><td> <input type="text" name="ProdId"/></td></tr>
+
+        <tr><td></td><td><input type="submit" value="Submit"/>
+
+            <INPUT TYPE=RESET VALUE="Clear"></td></tr>
+    </table>
+</form>
+
+
+</body>
+</html>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+</body>
+</html>
