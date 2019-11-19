@@ -102,3 +102,72 @@
 
 	//  String paymode=request.getParameter("r1");
 
+	boolean status=VerifyOrderadmin.checkLogin(ProdId);
+
+	if(status==true){
+
+		try
+		{
+			Connection con=Getconnection.getCon();
+			PreparedStatement ps=con.prepareStatement("update ordersdata set ProdName=?,Price=?,Discount=? where ProdId =?");
+			//int custid=(Integer)custid;
+			ps.setDouble(1,ProdId);
+			ps.setString(2,ProdName);
+			ps.setDouble(3,Price);
+
+			ps.setDouble(4,Discount);
+
+			ResultSet rs=ps.executeQuery();
+
+			if(rs.next()){
+
+				out.print("order has been updated");
+				request.setAttribute("order","order has been updated");
+%>
+	<jsp:forward page="OrdersAdmin.jsp"></jsp:forward>
+	<%
+
+		}
+
+		  /* else{
+
+			out.print("sorry try later");
+
+			%>
+	<jsp:forward page="index.php"></jsp:forward>
+	<%
+
+			}*/
+		} catch (SQLException e) {
+		e.printStackTrace();
+		}
+		}else{
+		out.println("your given id is wrong");
+		request.setAttribute("wrong","your given id is wrong");
+	%>
+	<jsp:forward page="UpdateOrders.jsp"></jsp:forward>
+	<%
+		}
+
+	%></table><%
+%>
+
+
+
+</body>
+</html>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
