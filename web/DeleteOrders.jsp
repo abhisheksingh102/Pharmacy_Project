@@ -1,7 +1,7 @@
 <%-- 
     Document   : DeleteOrders
     Created on : Nov 14, 2019, 11:39:29 PM
-    Author     : Computer gallery
+    Author     : Abhishek
 --%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
