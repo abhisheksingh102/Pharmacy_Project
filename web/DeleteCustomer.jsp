@@ -59,3 +59,36 @@
     <style>
 body  {
 
+    background: url("image/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+    </style>
+
+
+
+    <form name=F1 onSubmit="return dil(this)" action="DeleteCustomer1.jsp" >
+        <table cellspacing="5" cellpadding="3">
+
+            <%if(request.getAttribute("wrong")!=null)
+            {
+                out.print("<div>");
+                out.print("<font color='blue'><font size='4'>"+request.getAttribute("wrong")+"");
+
+                out.print("</div>");
+            }
+
+            %>
+
+
+            <tr><td>CustomerId:</td><td> <input type="text" name="CustomerId"/></td></tr>
+
+            <tr><td></td><td><input type="submit" value="Submit"/>
+
+                <INPUT TYPE=RESET VALUE="Clear"></td></tr>
+        </table>
+    </form>
+
+</body>
+</html>
