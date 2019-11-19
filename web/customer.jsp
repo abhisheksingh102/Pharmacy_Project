@@ -1,10 +1,9 @@
 <%--
-  Created by IntelliJ IDEA.
-  User: Abhishek
-  Date: 16-10-2019
-  Time: 23:14
-  To change this template use File | Settings | File Templates.
+    Document   : customer
+    Created on : 24 Sep, 2019, 10:34:39 PM
+    Author     : Kanha Mittal
 --%>
+
 
 
 
@@ -36,7 +35,7 @@
                 <a class="nav-link" href="about.jsp">About US</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Administrator</a>
+                <a class="nav-link" href="administrator.jsp">Administrator</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact us.jsp">contact us</a>
@@ -53,6 +52,15 @@
 
 
 <body>
+<style>
+    body  {
+
+        background: url("image/wall.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 <section class="overlay">
     <div class="bg-img">
         <form action="login.jsp" class="ayush">
